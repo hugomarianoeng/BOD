@@ -1,0 +1,487 @@
+   COLOR PALETTE - Bar Sitting (Updated Red & Yellow Theme)
+   Primary (Red): #DC2626 (Primary Red)
+   Primary Dark: #991B1B (Dark Red - Hover states)
+
+   Secondary (Yellow): #FBBF24 (Primary Yellow - Accents, highlights)
+   Secondary Dark: #D97706 (Dark Yellow - Hover states)
+
+   Accent (Light): #FEF3C7 (Light Yellow background)
+   Accent Dark: #F59E0B (Medium Yellow)
+
+   Success (Green): #10B981 (Keep for success states)
+   Success Dark: #059669
+
+   Background: #FEFCF8 (Warm White)
+   Background Gray: #F9FAFB
+
+   Text Dark: #1F2937
+   Text Medium: #4B5563
+   Text Light: #6B7280
+
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   COLOR PALETTE - Bar Sitting (Updated Red & Yellow Theme)
+   Primary (Red): #DC2626 (Primary Red)
+   Primary Dark: #991B1B (Dark Red - Hover states)
+
+   Secondary (Yellow): #FBBF24 (Primary Yellow - Accents, highlights)
+   Secondary Dark: #D97706 (Dark Yellow - Hover states)
+
+   Accent (Light): #FEF3C7 (Light Yellow background)
+   Accent Dark: #F59E0B (Medium Yellow)
+
+   Success (Green): #10B981 (Keep for success states)
+   Success Dark: #059669
+
+   Background: #FEFCF8 (Warm White)
+   Background Gray: #F9FAFB
+
+   Text Dark: #1F2937
+   Text Medium: #4B5563
+   Text Light: #6B7280
+   Primary (Rich Coffee): #6B4423 (Dark Coffee Brown)
+   Primary Light: #8B5A3C
+   Primary Dark: #4A2F1A
+
+   Secondary (Warm Caramel): #D4A574
+
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #2C1810;
+    background-color: #FEFCF8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+.heading {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+   Secondary Light: #E6C299
+   Secondary Dark: #B8935F
+
+   Accent (Cream): #F7F3E9
+   Accent Dark: #EDE4D3
+
+   Success (Sage Green): #7C9885
+   Success Dark: #6B8470
+
+   Background: #FEFCF8 (Warm White)
+   Background Gray: #F5F1E8
+
+   Text Dark: #2C1810
+   Text Medium: #5D4037
+   Text Light: #8D6E63
+
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #1F2937;
+    background-color: #FEFCF8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+.heading {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #1F2937;
+}
+
+.heading-lg {
+    font-size: 2.5rem;
+}
+
+.heading-md {
+    font-size: 2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-accent {
+    color: #FBBF24;
+}
+
+.btn-primary {
+    background-color: #DC2626;
+    color: white;
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
+}
+
+.btn-primary:hover {
+    background-color: #991B1B;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(220, 38, 38, 0.35);
+}
+
+/* Success buttons - keep green for success states */
+.btn-success {
+    background-color: #10B981;
+    color: white;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+}
+
+.btn-success:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: #4B5563;
+    border: 2px solid #D1D5DB;
+}
+
+.btn-ghost:hover {
+    background-color: #FEF3C7;
+    color: #1F2937;
+    border-color: #FBBF24;
+}
+
+/* White / Ghost-White button styles updated to use new red primary and yellow hover background */
+.btn-ghost-white {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-ghost-white:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-white {
+    background-color: white;
+    color: #DC2626; /* new primary red */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-white:hover {
+    background-color: #FEF3C7; /* yellow hover background */
+    color: #991B1B; /* darker red for contrast on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #FBBF24 0%, #DC2626 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.btn-lg {
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Success badge (keeps existing green shades) */
+.badge-success {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #059669;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Primary badge - updated to new red color */
+.badge-primary {
+    background-color: rgba(220, 38, 38, 0.15);
+    color: #DC2626;
+    border: 1px solid rgba(220, 38, 38, 0.3);
+}
+
+/* New yellow badge variant */
+.badge-yellow {
+    background-color: rgba(251, 191, 36, 0.15);
+    color: #D97706;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.btn-icon {
+    font-size: 1.2em;
+}
+
+.text-gray-300 {
+    color: #D1D5DB;
+}
+
+.text-gray-600 {
+    color: #6B7280;
+}
+
+.text-gray-200 {
+    color: #F3F4F6;
+}
+
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #2C1810;
+    background-color: #FEFCF8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+.heading {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #2C1810;
+}
+
+.heading-lg {
+    font-size: 2.5rem;
+}
+
+.heading-md {
+    font-size: 2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-accent {
+    color: #D4A574;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #D4A574 0%, #6B4423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-gray-300 {
+    color: #EDE4D3;
+}
+
+.text-gray-600 {
+    color: #8D6E63;
+}
+
+.text-gray-200 {
+    color: #F7F3E9;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #6B4423;
+    color: white;
+    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.25);
+}
+
+.btn-primary:hover {
+    background-color: #4A2F1A;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(107, 68, 35, 0.35);
+}
+/* Buttons */
+.btn-success {
+    background-color: #7C9885;
+    color: white;
+    box-shadow: 0 4px 12px rgba(124, 152, 133, 0.25);
+}
+
+.btn-success:hover {
+    background-color: #6B8470;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(124, 152, 133, 0.35);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: #5D4037;
+    border: 2px solid #EDE4D3;
+}
+
+.btn-ghost:hover {
+    background-color: #F7F3E9;
+    color: #2C1810;
+    border-color: #D4A574;
+}
+
+.btn-ghost-white {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-ghost-white:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-white {
+    background-color: white;
+    color: #6B4423;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-white:hover {
+    background-color: #F7F3E9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-lg {
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-icon {
+    font-size: 1.2em;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.badge-success {
+    background-color: rgba(124, 152, 133, 0.15);
+    color: #6B8470;
+    border: 1px solid rgba(124, 152, 133, 0.3);
+}
+
+.badge-primary {
+    background-color: rgba(107, 68, 35, 0.15);
+    color: #6B4423;
+    border: 1px solid rgba(107, 68, 35, 0.3);
+}
+
+/* Header */
+.header {
+    background-color: #FEFCF8;
+    box-shadow: 0 2px 8px rgba(107, 68, 35, 0.08);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #6B4423; /* Primary */
+}
+
+.header-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.header-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
